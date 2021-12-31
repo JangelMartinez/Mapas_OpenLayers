@@ -1,0 +1,27 @@
+{
+  "name": "mapas",
+  "version": "1.0.0",
+  "description": "Mapa marcación España con OpenLayer",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JangelMartinez/Map_OpenLayers.git"
+  },
+  "keywords": [
+    "Mapas",
+    "OpenLayers",
+    "JavaScript",
+    "Hmtl5",
+    "CSS3",
+    ".geoJson"
+  ],
+  "author": "José Ángel Martinez Socarrades",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JangelMartinez/Map_OpenLayers/issues"
+  },
+  "homepage": "https://github.com/JangelMartinez/Map_OpenLayers#readme"
+}

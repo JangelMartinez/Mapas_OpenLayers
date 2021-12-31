@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<!-- OpenLayer CSS-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/css/ol.css" type="text/css">
+    
+	<!-- OpenLayer JS-->
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.9.0/build/ol.js"></script>
+
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <title>España y sus provincias</title>
+  </head>
+  <body>
+	<div class="container-fluid">
+		<h2>España</h2>
+		<div id="botones" class='mb-2 text-center'>
+			<button name="peninsula" class='btn btn-primary' onclick="centrar(this)">Península e islas baleares</button>
+			<button name="canarias" class='btn btn-primary ms-3' onclick="centrar(this)">Islas Canárias</button>		
+			
+		</div>
+		<div id="coropletas" class="border bg-warning text-center p-3 bg-opacity-25">
+			<span class='coropleta_1000 ms-3 p-1 ps-5'></span><span class='ms-2'> menos de 1000</span>
+			<span class='coropleta_1250 ms-5 p-1 ps-5'></span><span class='ms-2'> hasta 1250</span>
+			<span class='coropleta_1500 ms-5 p-1 ps-5'></span><span class='ms-2'> hasta 1500</span>
+			<span class='coropleta_1750 ms-5 p-1 ps-5'></span><span class='ms-2'> hasta 1750</span>
+			<span class='coropleta_2000 ms-5 p-1 ps-5'></span><span class='ms-2'> hasta 2000</span>
+			<span class='coropleta_mas2000 ms-5 p-1 ps-5'></span><span class='ms-2'> más 2000</span>
+		</div>
+		<div id="map" class="map"></div>
+		<div id="popup" class="ol-popup">
+			<div id="popup-content"></div>
+		</div>
+	</div>
+   
+    <script src="main.js" type="text/javascript" />
+
+  </body>
+</html>

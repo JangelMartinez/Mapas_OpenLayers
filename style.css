@@ -1,0 +1,48 @@
+.map {
+	height: 500px;
+	width: 100%;
+  }
+
+.ol-popup{
+	position: absolute;
+	background-color: white;
+	padding: 15px;
+	border-radius: 10%;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+	border: 1px solid #ccc;
+	bottom: 12px;
+	left: -50px;
+	width: 200px;
+}
+
+.coropleta_1000{
+	border: 1px solid black;
+	background-color:  white;
+	
+}
+
+.coropleta_1250{
+	border: 1px solid black;
+	background-color:  #57f7f7;
+}
+
+.coropleta_1500{
+	border: 1px solid black;
+	background-color:  #57e7f7;
+}
+
+.coropleta_1750{
+	border: 1px solid black;
+	background-color:  #57c2f7;
+}
+
+.coropleta_2000{
+	border: 1px solid black;
+	background-color:  #579cf7;
+	;
+}
+.coropleta_mas2000{
+	border: 1px solid black;
+	background-color:  blue;
+}
+
